@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+
+[tool.poetry]
+name = "Default Python Project"
+version = "0.1.0"
+description = ""
+authors = ["Maximilian Kraus"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.*, <4"
+
+[tool.poetry.dev-dependencies]
+mypy = "*"
+ipython = "*"
+pytest = "*"
+flake8 = "*"
+black = "*"
